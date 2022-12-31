@@ -243,7 +243,6 @@ Memory bloat, I guess? I've honestly never had a real issue with VSCode. It's a 
 
 Extensions make the difference. But one super important setting that isn't an extension is bracket pair colorization. This makes brackets and parentheses pairs use separate colors to make them easier to visually match. Not sure why this isn't a default, but it's suuuuper handy.
 
-![374636de59dcad0a0dd76c62fb355095.png](:/483793fa742b45e5b30d53c4f9ad2a9f)
 ### Notes: [Joplin](https://joplinapp.org)
 
 You might think it's weird for someone who wrote a [whole dang C2 framework](https://github.com/mttaggart/OffensiveNotion) for a different notes app to be recommending this one. I promise there are good reasons.
