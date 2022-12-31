@@ -189,7 +189,7 @@ Find a theme! Use it! Then customize your PowerShell experience following [these
 
 #### Why I Like It
 
-I was a LastPass customer for over a decade. Their recent mismanagement of their security incident convinced me they could no longer be trusted with my information. However, their failure is not an indictment of the the concept of a password manager. While some feel that a local-only solution like KeePass is the only "secure" solution, I feel strongly that tools like a browser-integrated password manager are necessary as long as passwords are around to improve the overall strength and uniqueness of users' passwords.
+I was a LastPass customer for over a decade. Their recent mismanagement of their security incident convinced me they could no longer be trusted with my information. However, their failure is not an indictment of the concept of a password manager. While some feel that a local-only solution like KeePass is the only "secure" solution, I feel strongly that tools like a browser-integrated password manager are necessary as long as passwords are around to improve the overall strength and uniqueness of users' passwords.
 
 So, Bitwarden. They've been around for some time, offering both a hosted and self-hosted version of an open source password management solutions. 
 
@@ -261,9 +261,9 @@ At the top of that list is the built-in note encryption. By syncing encrypted no
 
 I dearly wish Joplin supported Google Drive. It doesn't, which is part of why I pay for Joplin Cloud. That and it's a nice way to give back to the project.
 
-I also don't love that the notes are not stored as flat files, but I understand why. Be aware that you'll need to export your notes before using them direclty wth another app.
+I also don't love that the notes are not stored as flat files, but I understand why. Be aware that you'll need to export your notes before using them directly with another app.
 
-There are many, *many* plugins to choose from, so I encourage you to explore them. I'd also encourage you to keep the list to a mininum.
+There are many, *many* plugins to choose from, so I encourage you to explore them. I'd also encourage you to keep the list to a minimum.
 
 #### Tips to Make It Great
 
@@ -279,7 +279,7 @@ Lastly, Joplin has a [TUI app](https://joplinapp.org/terminal/)! It's installed 
 
 ### Screenshots: [Flameshot](https://flameshot.org)
 
-Plasma Desktop has its own built-in screenshot tool which works well enough. As does Windows, of course. I lived and died by `Win+Shift+S` before I discovered Flameshot. Now, I use it basically exclusively for my screengrabbing needs
+Plasma Desktop has its own built-in screenshot tool which works well enough. As does Windows, of course. I lived and died by `Win+Shift+S` before I discovered Flameshot. Now, I use it basically exclusively for my screengrabbing needs.
 
 #### Why I Like It
 
@@ -374,7 +374,7 @@ As above, read the docs. But here are a couple of options I love:
 
 ### API Testing: [Insomnia](https://insomnia.rest)
 
-ZAP is great when there's a browser-based interface to test. That isn't always the case. Sometimes you're testing an API directly. I used to use Postman for this, but in keeping with my attempt to use open source tools whenver possible, Insomnia has filled the niche quite nicely.
+ZAP is great when there's a browser-based interface to test. That isn't always the case. Sometimes you're testing an API directly. I used to use Postman for this, but in keeping with my attempt to use open source tools whenever possible, Insomnia has filled the niche quite nicely.
 
 #### Why I Like It
 
@@ -516,7 +516,7 @@ None, really. Consider this a first step in analysis, not a complete picture.
 
 ### First Look: [PE-bear](https://github.com/hasherezade/pe-bear-releases)
 
-When you're ready to go a little deeper, PE-bear is a nice middleground between full-on static analysis and the quick disposition provided by PEStudio. With this, you get a hex view, statis, imports, and other information about the executable. 
+When you're ready to go a little deeper, PE-bear is a nice middleground between full-on static analysis and the quick disposition provided by PEStudio. With this, you get a hex view, stats, imports, and other information about the executable. 
 
 #### Why I Like It
 
