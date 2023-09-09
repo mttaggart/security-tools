@@ -23,7 +23,7 @@ With that warning out of the way, I felt it was appropriate to put together a li
 - [Cross-Functional Tools](#cross-functional-tools)
   - [Text Editor: Vim](#text-editor-vim)
   - [Text Editor for Programming: Visual Studio Code](#text-editor-for-programming-visual-studio-code)
-  - [Notes: Joplin](#notes-joplin)
+  - [Notes: Obsidian](#notes-obsidian)
   - [Screenshots: Flameshot](#screenshots-flameshot)
   - [Terminal Multiplexer: TMux](#terminal-multiplexer-tmux)
 - [WebApp Pentesting](#webapp-pentesting)
@@ -277,7 +277,7 @@ Memory bloat, I guess? I've honestly never had a real issue with VSCode. It's a 
 
 Extensions make the difference. But one super important setting that isn't an extension is bracket pair colorization. This makes brackets and parentheses pairs use separate colors to make them easier to visually match. Not sure why this isn't a default, but it's suuuuper handy.
 
-### Notes: [Joplin](https://joplinapp.org)
+### Notes: [Obsidian](https://obsidian.md)
 
 You might think it's weird for someone who wrote a [whole dang C2 framework](https://github.com/mttaggart/OffensiveNotion) for a different notes app to be recommending this one. I promise there are good reasons.
 
@@ -285,31 +285,29 @@ You might think it's weird for someone who wrote a [whole dang C2 framework](htt
 
 I'm a text guy. Not everyone is. I know some folks take notes primarily by diagram. Me? I'm too hyperverbal for that. I like lists. I like paragraphs. I like headings. Put simply, I like Markdown, and anything that gets in the way of me writing Markdown for my notes is not a value-add. That's why Notion, as nifty as it is for several use cases, is not my preference for note-taking.
 
-So why Notion? Why not another Markdown-based solution like [Obsidian](https://obsidian.md)?
+So why Obsidian? Why not another Markdown-based solution like [Joplin](https://joplinapp.org), especially since that one is fully open-source?
 
-Obsidian's fine, but it isn't open source. As I said up top, when comparing solutions, I try to choose the open one whenever possible. But that's not all. Joplin has a few features I require or vastly prefer.
+For a long time, Joplin _was_ the recommended note app in this section. And then I ran into some cases where its limitations started to bug me. In particular, a rather unhelpful task list format, as well as a poor mobile version, led me to re-examine Obsidian. When I did, I found I was much happier with it this time around. I use Obsidian Sync for end-to-end encryption, but I also like that I could use a Git repo.
 
-At the top of that list is the built-in note encryption. By syncing encrypted notes with Joplin Cloud, I get the convenience of my notes everywhere with the security of end-to-end encryption. That makes Joplin suited even for red team engagements, as described in [Responsible Red Teaming](https://taggartinstitute.org/p/responsible-red-teaming).
+But perhaps the most important difference between Obsidian and Joplin for me is that Obsidian uses flat Markdown files that you could read with anything else. Joplin creates this bizarre proprietary tree of diffs, almost like an ad-hoc Git repository itself. It's impossible to inspect the Joplin folder for the single note file you want. This presents a form of lock-in that made me increasingly uncomfortable. Obsidian removed that issue. My notes are simple folders of Markdown now, so if I choose to move on from Obsidian, the transfer process is painless. 
+
+By syncing encrypted notes with Obsidian Sync, I get the convenience of my notes everywhere with the security of end-to-end encryption. That makes Obsidian suited even for red team engagements, as described in [Responsible Red Teaming](https://taggartinstitute.org/p/responsible-red-teaming).
+
+Obsidian also has a rich publishing option that allows you to make a website _directly from your Vault!_ I'm very excited at this prospect for knowledgebase creation.
 
 #### Stuff You Gotta Deal With
 
-I dearly wish Joplin supported Google Drive. It doesn't, which is part of why I pay for Joplin Cloud. That and it's a nice way to give back to the project.
-
-I also don't love that the notes are not stored as flat files, but I understand why. Be aware that you'll need to export your notes before using them directly with another app.
-
-There are many, *many* plugins to choose from, so I encourage you to explore them. I'd also encourage you to keep the list to a minimum.
+The mobile app is just the desktop app with responsive scaling. That's both bad news and good news. The bad news is sometimes wonky interface choices. The good news, and this really blew me away, is that all the desktop extensions work on mobile! This was critical for me, as I rely on some of those extensions for my workflow, both at my desk and out in the world.
 
 #### Tips to Make It Great
 
-My list of must-have plugins is exceedingly short:
+My list of must-have plugins for Obsidian:
 
-1. `plugin-bundle`: creature comforts like a table of contents and in-line todos.
-2. `rich-markdown`: enables inline rendering of images.
-3. `joplin-excalidraw`: enables inline editing of Excalidraw diagrams.
-
-I also really do enjoy using Joplin Cloud for syncing. Easy to set up and a great way to support the project. Don't forget to enable encryption!
-
-Lastly, Joplin has a [TUI app](https://joplinapp.org/terminal/)! It's installed with either `snap` or `npm` (I know, I know) and allows a fun terminal access to your notes. The fact that you can then edit your Joplin notes with Vim is *(chef's kiss)*.
+* `Dracula Theme Official`: Naturally.
+* `Kanban`: The Trello-like task management is how I run my life.
+* `Excalidraw`: The built-in Canvas tool is really neat, but come on! Who doesn't love those whimsical diagrams?
+* `Ozan's Image in Editor Plugin`: Allows image previews in Markdown mode. This should be native.
+* `Copy Document as HTML`: Does what it says. Copy the document or selection as HTML. Super useful for transferring to things like Google Docs.
 
 ### Screenshots: [Flameshot](https://flameshot.org)
 
